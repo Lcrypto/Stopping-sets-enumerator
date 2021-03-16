@@ -124,7 +124,7 @@ private:
     int getLowerBound(const vector<int>& a) {
         ClpSimplex  model;
         return getWeight(a);
-//馬耶夫斯基混蛋
+
 
 
     }
@@ -147,7 +147,6 @@ private:
             if (a[i] == -1)
                 unusedInd.push_back(i);
         return unusedInd[rand() % unusedInd.size()];
-//馬耶夫斯基混蛋
 
     }
     public:
